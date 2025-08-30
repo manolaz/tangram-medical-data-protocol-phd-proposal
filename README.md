@@ -2,15 +2,14 @@
 
 ![Tangram Logo](image/Tangram.jpg)
 
-**To:**
-Professor James Kang
-Professor Tri Dang
-Professor Nalin Arachchilage
+**To:**  
+- Professor James Kang  
+- Professor Tri Dang  
+- Professor Nalin Arachchilage
 
-**From:**
+**From PhD Candidate:**
 Tristan Nguyen
-PhD Candidate
-tristansummer23@gmail.com
+(tristansummer23@gmail.com)
 
 ## Abstract
 A research proposal for a decentralized, secure, and patient-centric medical record protocol leveraging blockchain technology and zero-knowledge proofs to revolutionize healthcare data management.
@@ -31,6 +30,14 @@ A research proposal for a decentralized, secure, and patient-centric medical rec
     - [4.2 End-to-End Privacy via Zero-Knowledge Proofs](#42-end-to-end-privacy-via-zero-knowledge-proofs)
     - [4.3 Formal Verification and Security Analysis](#43-formal-verification-and-security-analysis)
   - [5. Proposed Methodology](#5-proposed-methodology)
+    - [5.1 Phase 1: Theoretical Foundation and Systematic Review](#51-phase-1-theoretical-foundation-and-systematic-review)
+    - [5.2 Phase 2: Framework Design and Protocol Specification](#52-phase-2-framework-design-and-protocol-specification)
+    - [5.3 Phase 3: Prototype Implementation and Empirical Testing](#53-phase-3-prototype-implementation-and-empirical-testing)
+    - [5.4 Phase 4: Formal Analysis and Security Verification](#54-phase-4-formal-analysis-and-security-verification)
+    - [5.5 Phase 5: Evaluation, Dissemination, and Thesis Compilation](#55-phase-5-evaluation-dissemination-and-thesis-compilation)
+    - [5.6 Potential Challenges and Mitigation Strategies](#56-potential-challenges-and-mitigation-strategies)
+    - [5.7 Ethical Considerations](#57-ethical-considerations)
+    - [5.8 Alignment with Research Objectives](#58-alignment-with-research-objectives)
   - [6. Expected Contributions](#6-expected-contributions)
     - [6.1 Theoretical Contributions](#61-theoretical-contributions)
     - [6.2 Practical Contributions](#62-practical-contributions)
