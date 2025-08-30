@@ -106,15 +106,15 @@ This research will evaluate decentralized storage systems, including IPFS for co
 3.3: This investigation will conduct extensive benchmarking of Tangram's performance using HL7/FHIR-compliant synthetic medical datasets, measuring transaction latency, storage proof verification times, and ZKP generation/verification overhead for private medical data computations [14], thereby providing empirical evidence of practical viability for real-world medical data applications.
 
 ## 5. Proposed Methodology
-5.1 Theoretical Foundation Development (Months 1-8)
+5.1 Theoretical Foundation Development:
 This phase will conduct systematic review of medical data sharing frameworks and comprehensive analysis of ZKP schemes for their applicability to medical data privacy challenges. The study will develop formal models for platform-agnostic integration of DLT, ZKP, and decentralized storage systems, thereby establishing the theoretical foundation for secure medical data analysis.
-5.2 Framework Design and Specification (Months 9-16)
+5.2 Framework Design and Specification:
 This research will design the comprehensive system architecture integrating DLT with decentralized storage for medical data management. The study will specify cryptographic protocols for ZKP-based access control and develop ZKP circuits for clinical trial use cases with off-chain private query protocols. This phase will develop formal security models and threat analysis specific to medical data systems, thereby creating a complete specification for privacy-preserving medical data analysis.
-5.3 Prototype Implementation and Validation (Months 17-26)
+5.3 Prototype Implementation and Validation:
 This investigation will implement core system components demonstrating the platform-agnostic design principles for medical data management. The study will develop and test ZKP circuits with off-chain services for generating proofs on synthetic HL7/FHIR medical datasets. Comprehensive performance analysis will measure transaction throughput, medical data access latency, and resource utilization, thereby providing empirical validation of the Tangram Protocol's practical viability.
-5.4 Formal Analysis and Verification (Months 27-32)
+5.4 Formal Analysis and Verification:
 This phase will conduct formal verification of smart contract logic and ZKP protocols for medical data systems. The research will perform comprehensive performance evaluation against established benchmarks and comparative analysis with existing medical data sharing approaches. The study will validate regulatory compliance capabilities for medical data protection, thereby providing rigorous mathematical and empirical proof of system superiority.
-5.5 Evaluation and Dissemination (Months 33-36)
+5.5 Evaluation and Dissemination:
 This final phase will conduct comprehensive evaluation of research contributions to medical data security and privacy. The study will prepare thesis documentation and academic publications while developing open-source research artifacts, thereby ensuring broad dissemination and practical application of research outcomes.
 
 ## 6. Expected Contributions
