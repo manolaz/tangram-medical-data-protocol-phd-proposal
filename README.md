@@ -14,7 +14,7 @@ Tristan Nguyen, PhD Candidate
 (tristansummer23@gmail.com)
 
 ## Abstract
-This research proposes the Tangram Protocol, an innovative framework that addresses critical challenges in healthcare data management through decentralized technologies. The protocol introduces a novel integration of blockchain and zero-knowledge proofs (ZKPs) to create a secure, privacy-preserving platform for medical data sharing and analysis. At its core, Tangram enables patients to maintain sovereignty over their health records while allowing controlled access for medical research and clinical applications.
+This research proposes the Tangram Protocol, a framework designed to address critical gaps in secure medical data analysis. While many decentralized solutions for healthcare exist, this work pioneers a specific, underexplored methodology centered on the tight integration of three key pillars: **hybrid storage-ledger architecture, advanced cryptography (specifically Zero-Knowledge Proofs), and formal verification**. This unique combination creates a secure, privacy-preserving platform where medical data can be analyzed without ever being exposed, addressing a fundamental limitation in existing systems.
 
 Key innovations include a decentralized identity management system, fine-grained access control mechanisms, and privacy-preserving computation capabilities. The protocol's architecture ensures data integrity through cryptographic proofs while maintaining patient confidentiality through advanced ZKP techniques. By eliminating centralized points of failure and enabling verifiable computation on encrypted data, Tangram addresses critical gaps in current healthcare data systems.
 
@@ -61,7 +61,7 @@ This study undertakes a comprehensive systematic review of existing medical data
 
 Current medical data systems suffer from fundamental architectural flaws that impede secure collaboration. Traditional Electronic Health Records (EHRs) create isolated data silos vulnerable to cyberattacks. Existing decentralized approaches fail to provide true end-to-end privacy guarantees during analysis phases. Medical data typically remains protected only in transit and at rest, but must be decrypted for analysis. This creates critical vulnerability points that compromise patient privacy.
 
-This study develops and validates the Tangram Protocol as a transformative solution. It leverages Zero-Knowledge Proofs (ZKP) for both access control and private computation on medical data stored in decentralized storage systems. The research demonstrates how this approach enables collaborative clinical trial analysis while maintaining complete data confidentiality throughout the entire lifecycle. This addresses the fundamental gap where medical data privacy is compromised during computational analysis phases.
+This study develops and validates the Tangram Protocol as a transformative solution that distinguishes itself through a novel synthesis of technologies. Its core innovation lies in a **hybrid architecture** combining a distributed ledger for immutable audit trails with decentralized storage for scalable data management. This structure is secured through **advanced cryptography**, using Zero-Knowledge Proofs (ZKPs) not only for access control but for private computation on encrypted data. Finally, the protocol's integrity is mathematically guaranteed through **formal verification**. This tripartite approach directly addresses the critical vulnerability where data privacy is compromised during computational analysis—a gap left open by most existing frameworks.
 
 ## 2. Research Objectives
 1. Design a decentralized protocol for secure medical record management
@@ -209,7 +209,7 @@ By enabling more secure and efficient medical data analysis, this research contr
 
 ## 8. Conclusion
 
-This proposed research addresses fundamental challenges in medical data sharing and analysis through novel integration of end-to-end ZKP within a platform-agnostic, decentralized architecture using advanced decentralized storage systems. By enabling verifiable private computation on medical data that never requires decryption, this work will make significant theoretical and practical contributions to distributed systems, applied cryptography, and health informatics. The comprehensive approach will produce research outcomes with both academic significance and real-world applicability, thereby paving the way for a new generation of secure, privacy-preserving medical data analysis platforms that can transform collaborative healthcare research while maintaining absolute patient privacy.
+This proposed research addresses a critical, unresolved challenge in medical data analysis by focusing on a novel and specific technical angle. The core contribution is the Tangram Protocol, which uniquely integrates **hybrid storage-ledger systems, advanced cryptography, and formal verification**. By enabling verifiable private computation on data that never requires decryption, this work moves beyond existing decentralized solutions. It makes significant theoretical and practical contributions to distributed systems and health informatics, establishing a new paradigm for secure, privacy-preserving medical research that guarantees data integrity and patient confidentiality from end to end.
 
 ## 9. Research Timeline
 
