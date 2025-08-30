@@ -1,4 +1,14 @@
-# Tangram Protocol: Decentralized Medical Record System
+# Tangram Protocol - Decentralized Framework for Secure Medical Data Analysis: End-to-End Zero-Knowledge Proofs with Distributed Data Storage Systems
+
+**To:**
+Professor James Kang,
+Professor Tri Dang,
+Professor Nalin Arachchilage,
+
+**From:**
+Tristan Nguyen
+PhD Candidate
+tristansummer23@gmail.com
 
 ## Abstract
 A research proposal for a decentralized, secure, and patient-centric medical record protocol leveraging blockchain technology and zero-knowledge proofs to revolutionize healthcare data management.
@@ -12,17 +22,12 @@ A research proposal for a decentralized, secure, and patient-centric medical rec
 - [Research Timeline](#research-timeline)
 - [References](#references)
 
-## Introduction
-### Background
-- Current challenges in medical record management
-- Centralized vs. decentralized approaches
-- The need for patient data sovereignty
+## Introduction and Problem Statement
+This study will undertake a comprehensive systematic review of existing medical data sharing methodologies, with particular emphasis on multi-institutional clinical trial data management practices. The review will critically examine current frameworks, technologies, and policies governing medical data access and analysis to uncover inherent limitations in privacy preservation, interoperability challenges, and computational inefficiencies. Through this analytical process, the study aims to identify unresolved issues and research gaps within the literature regarding secure collaborative analysis of longitudinal patient health records, thereby establishing a clear rationale and justification for developing the Tangram Protocol as a novel solution.
 
-### Problem Statement
-- Data silos in healthcare
-- Privacy and security concerns
-- Interoperability issues
-- Patient access and control limitations
+Current medical data systems suffer from fundamental architectural flaws that impede secure collaboration. This research will systematically analyze how traditional Electronic Health Records (EHRs) create isolated data silos vulnerable to cyberattacks, while existing decentralized approaches fail to provide true end-to-end privacy guarantees during analysis phases. The investigation will reveal how medical data typically remains protected only in transit and at rest, but must be decrypted for analysis, creating critical vulnerability points that compromise patient privacy.
+
+This study will develop and validate the Tangram Protocol as a transformative solution that leverages Zero-Knowledge Proofs (ZKP) for both access control and private computation on medical data stored in decentralized storage systems. The research will demonstrate how this approach enables collaborative clinical trial analysis while maintaining complete data confidentiality throughout the entire lifecycle, addressing the fundamental gap where medical data privacy is compromised during computational analysis phases.
 
 ## Research Objectives
 1. Design a decentralized protocol for secure medical record management
