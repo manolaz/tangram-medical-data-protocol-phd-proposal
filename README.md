@@ -106,23 +106,74 @@ This research will evaluate decentralized storage systems, including IPFS for co
 3.3: This investigation will conduct extensive benchmarking of Tangram's performance using HL7/FHIR-compliant synthetic medical datasets, measuring transaction latency, storage proof verification times, and ZKP generation/verification overhead for private medical data computations [14], thereby providing empirical evidence of practical viability for real-world medical data applications.
 
 ## 5. Proposed Methodology
-5.1 Theoretical Foundation Development:
-This phase will conduct systematic review of medical data sharing frameworks and comprehensive analysis of ZKP schemes for their applicability to medical data privacy challenges. The study will develop formal models for platform-agnostic integration of DLT, ZKP, and decentralized storage systems, thereby establishing the theoretical foundation for secure medical data analysis.
-5.2 Framework Design and Specification:
-This research will design the comprehensive system architecture integrating DLT with decentralized storage for medical data management. The study will specify cryptographic protocols for ZKP-based access control and develop ZKP circuits for clinical trial use cases with off-chain private query protocols. This phase will develop formal security models and threat analysis specific to medical data systems, thereby creating a complete specification for privacy-preserving medical data analysis.
-5.3 Prototype Implementation and Validation:
-This investigation will implement core system components demonstrating the platform-agnostic design principles for medical data management. The study will develop and test ZKP circuits with off-chain services for generating proofs on synthetic HL7/FHIR medical datasets. Comprehensive performance analysis will measure transaction throughput, medical data access latency, and resource utilization, thereby providing empirical validation of the Tangram Protocol's practical viability.
-5.4 Formal Analysis and Verification:
-This phase will conduct formal verification of smart contract logic and ZKP protocols for medical data systems. The research will perform comprehensive performance evaluation against established benchmarks and comparative analysis with existing medical data sharing approaches. The study will validate regulatory compliance capabilities for medical data protection, thereby providing rigorous mathematical and empirical proof of system superiority.
-5.5 Evaluation and Dissemination:
-This final phase will conduct comprehensive evaluation of research contributions to medical data security and privacy. The study will prepare thesis documentation and academic publications while developing open-source research artifacts, thereby ensuring broad dissemination and practical application of research outcomes.
+
+This research adopts a multi-phase, mixed-methods approach, combining theoretical analysis, system design, prototype implementation, and formal verification to rigorously develop and validate the Tangram Protocol. The methodology is structured to ensure that each phase builds logically on the previous one, culminating in a robust and empirically validated framework.
+
+### 5.1 Phase 1: Theoretical Foundation and Systematic Review
+
+- **Research Design:** This phase will employ a systematic literature review to analyze existing medical data sharing frameworks, including centralized, decentralized, and hybrid models. The review will focus on identifying architectural limitations, security vulnerabilities, and privacy gaps in prominent systems like MedRec [10] and FHIRChain [3].
+- **Data Collection:** We will gather qualitative data from peer-reviewed academic journals, conference proceedings, and technical whitepapers. The search will target publications related to blockchain in healthcare, zero-knowledge proofs, and decentralized storage systems.
+- **Analytical Technique:** A thematic analysis will be conducted to synthesize findings and identify recurring challenges. We will also perform a comparative analysis of different ZKP schemes (e.g., zk-SNARKs vs. zk-STARKs) to evaluate their suitability for medical data applications.
+- **Tools/Software:** Zotero and Mendeley will be used for reference management. NVivo may be used for qualitative data analysis.
+- **Validation:** The findings will be validated through expert review with supervisors to ensure the theoretical framework is sound and addresses a genuine research gap.
+
+### 5.2 Phase 2: Framework Design and Protocol Specification
+
+- **Research Design:** This phase will focus on the architectural design of the Tangram Protocol. It involves specifying the interactions between the DLT, decentralized storage, and ZKP components. The design will be guided by principles of modularity, platform-agnosticism, and regulatory compliance.
+- **Data Collection:** N/A (This is a design-focused phase).
+- **Analytical Technique:** We will use formal modeling languages like TLA+ or Alloy to specify the protocol's behavior and ensure its logical correctness. Threat modeling frameworks such as STRIDE will be employed to identify potential security risks.
+- **Tools/Software:** Lucidchart or draw.io for architectural diagrams, TLA+ Toolbox for formal specification.
+- **Validation:** The protocol specification will undergo peer review to identify design flaws. The threat model will be validated against known attack vectors in similar systems.
+
+### 5.3 Phase 3: Prototype Implementation and Empirical Testing
+
+- **Research Design:** A proof-of-concept prototype will be developed to demonstrate the core functionalities of the Tangram Protocol. The implementation will focus on the ZKP-based access control and private query execution.
+- **Data Collection:** We will use synthetic medical datasets compliant with HL7/FHIR standards to test the prototype. Performance metrics such as transaction latency, proof generation time, and verification overhead will be collected.
+- **Analytical Technique:** Quantitative analysis will be performed on the collected performance data. Benchmarking will be conducted to compare the prototype's performance against existing systems under controlled conditions.
+- **Tools/Software:** The prototype will be implemented using a modern blockchain platform (e.g., Ethereum, Hyperledger Fabric) and a decentralized storage solution (e.g., IPFS). ZKP libraries like ZoKrates or Circom will be used to develop the circuits.
+- **Validation:** The prototype will be validated through a series of functional and performance tests. The results will be used to refine the protocol design and identify optimization opportunities.
+
+### 5.4 Phase 4: Formal Analysis and Security Verification
+
+- **Research Design:** This phase will involve the formal verification of the protocol's security properties. We will mathematically prove the correctness of the smart contracts and the soundness of the ZKP implementation.
+- **Data Collection:** N/A (This is a formal methods phase).
+- **Analytical Technique:** We will use formal verification tools to prove that the implementation adheres to its specification and is free from common vulnerabilities. This includes proving properties like data confidentiality, integrity, and access control enforcement.
+- **Tools/Software:** Formal verification tools such as Coq or Isabelle/HOL will be used.
+- **Validation:** The formal proofs will be independently reviewed to ensure their correctness and completeness.
+
+### 5.5 Phase 5: Evaluation, Dissemination, and Thesis Compilation
+
+- **Research Design:** The final phase will synthesize the findings from all previous phases to evaluate the overall effectiveness of the Tangram Protocol. The contributions to theory and practice will be clearly articulated.
+- **Data Collection:** N/A.
+- **Analytical Technique:** A holistic evaluation will be conducted, assessing the protocol against the initial research objectives and questions.
+- **Tools/Software:** LaTeX for thesis preparation, Git for version control of research artifacts.
+- **Validation:** The thesis will undergo a rigorous examination process. Research findings will be submitted to peer-reviewed journals and conferences for dissemination to the wider academic community.
+
+### 5.6 Potential Challenges and Mitigation Strategies
+
+- **Challenge:** Scalability of ZKP generation for complex queries.
+- **Mitigation:** Explore recursive ZKP compositions and off-chain computation to reduce on-chain overhead.
+- **Challenge:** Ensuring regulatory compliance across different jurisdictions (e.g., GDPR, HIPAA).
+- **Mitigation:** Design the protocol with data sovereignty and portability in mind; consult with legal experts on data protection.
+
+### 5.7 Ethical Considerations
+
+This research will adhere to the highest ethical standards. Although we will be using synthetic datasets, the protocol is designed to handle sensitive medical information. The design will prioritize patient privacy and data autonomy, ensuring that patients have full control over their data. The research will also consider the ethical implications of using decentralized systems in healthcare, including issues of accessibility and digital literacy.
+
+### 5.8 Alignment with Research Objectives
+
+This methodology is directly aligned with the research objectives. Phase 1 and 2 address the design of the decentralized protocol (Objective 1). Phase 3 focuses on the implementation of ZKPs and patient-centric access control (Objectives 2 & 4). Phase 4 ensures the security of the solution (Objective 5), and the entire methodology is geared towards ensuring interoperability with existing standards (Objective 3).
 
 ## 6. Expected Contributions
+
 ### 6.1 Theoretical Contributions
+
 **Novel Platform-Agnostic Medical Data Framework:** This research develops new theoretical models for integrating DLT with decentralized storage. These models are specifically optimized for private medical data analysis in clinical trials. The framework is applicable across various blockchain platforms. It provides a foundational architecture for next-generation medical data systems.
 **Privacy-Preserving Medical Data Computation Protocol:** The study creates a novel cryptographic protocol. It combines attribute-based access control with ZKP-based private computation for medical data. This enables statistical analysis on data that remains encrypted throughout the process. It solves the fundamental problem of medical data privacy during analysis phases.
 **Formal Verification Methodology for Medical Data Systems:** This investigation develops comprehensive formal methods for verifying security and privacy properties. These methods apply to hybrid distributed systems handling sensitive medical data. They establish rigorous security assurance methodologies for healthcare applications.
+
 ### 6.2 Practical Contributions
+
 **Clinical Trial Analytics Without Data Exposure:** This research demonstrates practical implementation of multi-institution clinical trial analysis. Medical data remains confidential throughout collaborative research processes. This addresses a major bottleneck preventing medical research collaboration.
 **Regulatory Compliance Framework for Decentralized Medical Data:** The study develops systematic approaches ensuring compliance with medical data protection regulations. These approaches apply to decentralized systems supporting computation. They enable practical deployment of privacy-preserving medical data systems.
 **Performance-Optimized Medical Data Analysis:** This investigation identifies and implements optimization techniques. These techniques are specific to distributed medical data analysis systems using ZKP and decentralized storage. They provide practical guidance for scalable medical data applications.
@@ -130,17 +181,23 @@ This final phase will conduct comprehensive evaluation of research contributions
 ## 7. Expected Impact and Significance
 
 ### 7.1 Academic Impact
-This research contributes novel theoretical frameworks to distributed systems, applied cryptography, and health informatics [12][17][18][19]. Methodologies for integrating ZKP for end-to-end medical data privacy provide foundations for future privacy-sensitive domain research. This advances the academic understanding of secure medical data systems.
+
+This research contributes novel theoretical frameworks to distributed systems, applied cryptography, and health informatics [12, 17, 18, 19]. Methodologies for integrating ZKP for end-to-end medical data privacy provide foundations for future privacy-sensitive domain research. This advances the academic understanding of secure medical data systems.
 
 ### 7.2 Practical Impact
+
 The Tangram Protocol addresses critical real-world challenges in medical data sharing. It enables vital research and analysis currently stalled by privacy concerns. Outcomes inform development of new technical standards and policies for secure medical data exchange and collaborative research. This transforms how medical institutions collaborate on sensitive data analysis.
 
 ### 7.3 Societal Impact
+
 By enabling more secure and efficient medical data analysis, this research contributes to faster medical discoveries, improved healthcare outcomes, reduced research costs, and enhanced patient autonomy in medical data management decisions. This directly benefits public health and advances medical science.
+
 ## 8. Conclusion
 
 This proposed research addresses fundamental challenges in medical data sharing and analysis through novel integration of end-to-end ZKP within a platform-agnostic, decentralized architecture using advanced decentralized storage systems. By enabling verifiable private computation on medical data that never requires decryption, this work will make significant theoretical and practical contributions to distributed systems, applied cryptography, and health informatics. The comprehensive approach will produce research outcomes with both academic significance and real-world applicability, thereby paving the way for a new generation of secure, privacy-preserving medical data analysis platforms that can transform collaborative healthcare research while maintaining absolute patient privacy.
+
 ## 9. Research Timeline
+
 ```mermaid
 gantt
     title Research Timeline
