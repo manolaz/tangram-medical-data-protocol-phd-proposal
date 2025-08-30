@@ -31,7 +31,9 @@ This research will validate the protocol's effectiveness through both theoretica
     - [3.2 Distributed Ledger Technologies in Medical Data Management](#32-distributed-ledger-technologies-in-medical-data-management)
     - [3.3 Zero-Knowledge Proofs for Medical Data Privacy](#33-zero-knowledge-proofs-for-medical-data-privacy)
     - [3.4 Decentralized Storage for Medical Data](#34-decentralized-storage-for-medical-data)
-  - [4. Research Questions and Objectives](#4-research-questions-and-objectives)
+    - [3.5 Healthcare Interoperability Standards](#35-healthcare-interoperability-standards)
+    - [3.6 Global and Regional Regulatory Landscape](#36-global-and-regional-regulatory-landscape)
+  - [4. Research Questions](#4-research-questions)
     - [4.1 Framework Architecture and Integration](#41-framework-architecture-and-integration)
     - [4.2 End-to-End Privacy via Zero-Knowledge Proofs](#42-end-to-end-privacy-via-zero-knowledge-proofs)
     - [4.3 Formal Verification and Security Analysis](#43-formal-verification-and-security-analysis)
@@ -64,25 +66,48 @@ Current medical data systems suffer from fundamental architectural flaws that im
 This study develops and validates the Tangram Protocol as a transformative solution that distinguishes itself through a novel synthesis of technologies. Its core innovation lies in a **hybrid architecture** combining a distributed ledger for immutable audit trails with decentralized storage for scalable data management. This structure is secured through **advanced cryptography**, using Zero-Knowledge Proofs (ZKPs) not only for access control but for private computation on encrypted data. Finally, the protocol's integrity is mathematically guaranteed through **formal verification**. This tripartite approach directly addresses the critical vulnerability where data privacy is compromised during computational analysis—a gap left open by most existing frameworks.
 
 ## 2. Research Objectives
-1. Design a decentralized protocol for secure medical record management
-2. Implement zero-knowledge proofs for privacy-preserving data sharing
-3. Ensure interoperability with existing healthcare standards (HL7, FHIR)
-4. Develop a patient-centric access control mechanism
-5. Evaluate performance and security of the proposed solution
+
+1. **Design a Decentralized Protocol:** Architect a novel, platform-agnostic protocol for secure medical record management that integrates a hybrid storage-ledger model.
+2. **Implement Privacy-Preserving Computation:** Implement and validate advanced Zero-Knowledge Proof (ZKP) circuits to enable privacy-preserving analysis of medical data.
+3. **Achieve Native FHIR Interoperability:** Design the protocol's data models and APIs to be natively compliant with **HL7/FHIR** standards, enabling seamless, out-of-the-box integration with existing Electronic Health Record (EHR) systems and health information exchanges.
+4. **Develop Patient-Centric Access Control:** Create a robust, patient-centric access control mechanism using decentralized identity and verifiable credentials.
+5. **Evaluate Performance and Security:** Rigorously evaluate the protocol's performance, scalability, and security through formal verification and empirical benchmarking against existing solutions.
 
 ## 3. Literature Review and Theoretical Foundation
+
 ### 3.1 Medical Data Sharing and Analysis Challenges
+
 This study will conduct a systematic examination of medical data sharing challenges across regulatory, technical, and operational dimensions. The investigation will analyze how privacy, security, and interoperability constraints under frameworks like HIPAA and GDPR create barriers to collaborative medical research [4]. Through comprehensive analysis of existing solutions, including blockchain-based frameworks for clinical data sharing [3], the research will identify critical gaps where current approaches fail to enable secure multi-institutional analysis of medical data without compromising patient privacy, thereby establishing the necessity for novel cryptographic approaches that maintain data confidentiality during computation [6][7][9][16][21].
 
 ### 3.2 Distributed Ledger Technologies in Medical Data Management
+
 This research will comprehensively evaluate the application of Distributed Ledger Technologies (DLTs) in medical data management, examining early deployments such as MedRec for medical data access and permission management [10] and Hedera's healthcare applications [8][11], to understand scalability and privacy limitations [1][2]. The study will analyze how modern DLTs with expressive smart contract capabilities can serve as foundations for managing medical data as programmable on-chain entities with embedded access policies. This analysis will demonstrate how DLTs can provide immutable audit trails and access control for medical data while integrating with decentralized storage systems for scalable data management, thereby justifying the selection of DLT-based architecture for the Tangram Protocol.
 
 ### 3.3 Zero-Knowledge Proofs for Medical Data Privacy
+
 This investigation will conduct an in-depth analysis of ZKP applications in healthcare, examining how cryptographic techniques like zk-SNARKs and zk-STARKs can enable verifiable computation on encrypted medical data [13]. The study will systematically review existing implementations to identify limitations in current approaches and demonstrate how ZKP circuits can execute complex statistical analyses and cohort selections on medical data without revealing underlying patient information. This analysis will establish how ZKP technology can transform medical data analysis by enabling researchers to obtain proven, correct results without accessing raw patient data, thereby providing the theoretical foundation for implementing privacy-preserving computation in the Tangram Protocol.
 
 ### 3.4 Decentralized Storage for Medical Data
+
 This research will evaluate decentralized storage systems, including IPFS for content-addressed file systems [15], for their suitability in managing large-scale medical datasets, examining attributes such as censorship resistance, availability guarantees, and cryptographic integrity proofs. The study will analyze how decentralized storage can serve as a secure, off-chain repository for encrypted longitudinal patient health records while maintaining integration with on-chain access control mechanisms, thereby establishing the technical foundation for hybrid on-chain/off-chain medical data management in the Tangram Protocol.
-## 4. Research Questions and Objectives
+
+### 3.5 Healthcare Interoperability Standards
+
+This section will conduct a detailed analysis of foundational healthcare interoperability standards, focusing on **Health Level Seven (HL7)** and its modern successor, **Fast Healthcare Interoperability Resources (FHIR)**. The research will trace the evolution from legacy HL7 versions (V2, V3, CDA) to the modern, API-centric approach of FHIR. The analysis will cover:
+
+- **FHIR's Core Principles:** A review of FHIR's design philosophy, including its focus on discrete, computable data elements known as **Resources** (e.g., `Patient`, `Observation`, `Encounter`), its use of modern web standards like RESTful APIs and JSON/XML, and its extensibility through **Profiles** and **Extensions**.
+- **Syntactic and Semantic Interoperability:** An examination of how FHIR provides a common data model and terminology bindings (e.g., to SNOMED CT, LOINC) to ensure that exchanged data is both structurally sound and clinically meaningful.
+- **Integration Strategy for Tangram:** This study will investigate how Tangram can natively align with FHIR by modeling on-chain digital assets and off-chain data pointers as FHIR Resources. The protocol will expose a FHIR-compliant API layer, enabling existing EHR systems and healthcare applications to interact with Tangram using familiar, standardized protocols. This approach ensures that Tangram is not another data silo but a seamless extension of the existing digital health ecosystem, justifying its design as a practical and adoptable solution for clinical environments.
+
+### 3.6 Global and Regional Regulatory Landscape
+
+A comprehensive review of the global and regional regulatory landscape will be conducted to establish a robust compliance foundation for the Tangram Protocol. This analysis will focus on:
+
+- **HIPAA (Health Insurance Portability and Accountability Act):** An in-depth examination of the HIPAA Privacy, Security, and Breach Notification Rules. The study will analyze the definitions of Protected Health Information (PHI) and the obligations of Covered Entities and Business Associates. We will investigate how Tangram's architecture—with its immutable audit trails and ZKP-based privacy controls—can help entities meet HIPAA's stringent requirements for access control, auditability, and data integrity.
+- **GDPR (General Data Protection Regulation):** A detailed analysis of GDPR's core principles, including lawfulness, fairness, transparency, data minimization, and purpose limitation. The research will focus on the rights of data subjects (e.g., right to access, right to erasure) and the requirements for data protection by design and by default. We will explore how Tangram's patient-centric model and cryptographic guarantees can support GDPR compliance, particularly in cross-border data sharing scenarios.
+- **Other Regional Regulations:** The study will also consider other significant data protection frameworks, such as **Vietnam's Decree 13/2023/ND-CP on Personal Data Protection**. This comparative analysis will identify common principles and divergent requirements, informing the design of a flexible, policy-driven compliance module within Tangram that can be adapted to various jurisdictional demands.
+
+## 4. Research Questions
 
 ### 4.1 Framework Architecture and Integration
 
@@ -90,7 +115,7 @@ This research will evaluate decentralized storage systems, including IPFS for co
 
 **Objectives:**
 
-1.1: This research will design and validate the Tangram Protocol as a generalized DLT architecture that models medical data as on-chain digital assets with embedded ZKP-based access control policies, thereby creating a reusable framework applicable across multiple blockchain platforms.
+1.1: This research will design and validate the Tangram Protocol as a generalized DLT architecture that models medical data as **FHIR-compliant** on-chain digital assets with embedded ZKP-based access control policies, thereby creating a reusable and interoperable framework applicable across multiple blockchain platforms.
 
 1.2: The study will develop and test a generic interface for integrating decentralized storage protocols with on-chain verification of data availability proofs, thereby enabling scalable medical data management without compromising security or auditability.
 
@@ -106,7 +131,7 @@ This research will evaluate decentralized storage systems, including IPFS for co
 
 2.2: The research will design, implement, and benchmark ZKP circuits for representative clinical trial queries including patient cohort selection and aggregate statistical functions that execute over encrypted medical data stored in decentralized storage, thereby proving the feasibility of complex medical data analysis without compromising patient privacy.
 
-2.3: This investigation will conduct comprehensive mapping of Tangram's privacy mechanisms to international data protection laws including HIPAA, GDPR, and Vietnam's Decree 13/2023/ND-CP, thereby providing a regulatory compliance framework for decentralized medical data systems.
+2.3: This investigation will design and validate a modular regulatory compliance framework that maps Tangram's privacy-by-design architecture to the specific requirements of international data protection laws, including **HIPAA**, **GDPR**, and **Vietnam's Decree 13/2023/ND-CP**, ensuring the protocol can be deployed globally.
 
 ### 4.3 Formal Verification and Security Analysis
 
@@ -134,7 +159,7 @@ This research adopts a multi-phase, mixed-methods approach, combining theoretica
 
 ### 5.2 Phase 2: Framework Design and Protocol Specification
 
-- **Research Design:** This phase will focus on the architectural design of the Tangram Protocol. It involves specifying the interactions between the DLT, decentralized storage, and ZKP components. The design will be guided by principles of modularity, platform-agnosticism, and regulatory compliance.
+- **Research Design:** This phase will focus on the architectural design of the Tangram Protocol. Key activities will include designing **custom FHIR profiles** to represent on-chain data pointers and access rights, and specifying the interactions between the DLT, decentralized storage, and ZKP components. The entire design will be guided by principles of modularity, platform-agnosticism, and a 'privacy-by-design' approach to align with **GDPR and HIPAA** requirements from the ground up.
 - **Data Collection:** N/A (This is a design-focused phase).
 - **Analytical Technique:** We will use formal modeling languages like TLA+ or Alloy to specify the protocol's behavior and ensure its logical correctness. Threat modeling frameworks such as STRIDE will be employed to identify potential security risks.
 - **Tools/Software:** Lucidchart or draw.io for architectural diagrams, TLA+ Toolbox for formal specification.
@@ -143,7 +168,7 @@ This research adopts a multi-phase, mixed-methods approach, combining theoretica
 ### 5.3 Phase 3: Prototype Implementation and Empirical Testing
 
 - **Research Design:** A proof-of-concept prototype will be developed to demonstrate the core functionalities of the Tangram Protocol. The implementation will focus on the ZKP-based access control and private query execution.
-- **Data Collection:** We will generate realistic, large-scale synthetic patient data using the **Synthea™** tool, ensuring compliance with HL7/FHIR standards. Performance metrics—including transaction latency, proof generation time, verification overhead, and end-to-end query response time—will be systematically collected.
+- **Data Collection:** We will generate realistic, large-scale synthetic patient data using the **Synthea™** tool. The data will be structured as **FHIR resources** (e.g., Patient, Observation, Condition) to ensure the prototype is tested against industry-standard data models. Performance metrics—including transaction latency, proof generation time, verification overhead, and end-to-end query response time—will be systematically collected.
 - **Analytical Technique:** Quantitative analysis will be performed on the collected performance data. The prototype's performance will be benchmarked against established systems like **MedRec** and **FHIRChain** under identical load conditions to provide a comparative assessment of efficiency and scalability.
 - **Tools/Software:** The prototype will be implemented using a modern blockchain platform (e.g., Ethereum, Hyperledger Fabric) and a decentralized storage solution (e.g., IPFS). ZKP libraries like ZoKrates or Circom will be used to develop the circuits.
 - **Validation:** The prototype will be validated through a series of functional and performance tests. The results will be used to refine the protocol design and identify optimization opportunities.
@@ -168,8 +193,8 @@ This research adopts a multi-phase, mixed-methods approach, combining theoretica
 
 - **Challenge:** Scalability of ZKP generation for complex queries.
 - **Mitigation:** Explore recursive ZKP compositions and off-chain computation to reduce on-chain overhead.
-- **Challenge:** Ensuring regulatory compliance across different jurisdictions (e.g., GDPR, HIPAA).
-- **Mitigation:** Design the protocol with data sovereignty and portability in mind; consult with legal experts on data protection.
+- **Challenge:** Ensuring regulatory compliance across different jurisdictions. The protocol must navigate the complex and sometimes conflicting requirements of regulations like **HIPAA**, which governs protected health information (PHI) in the U.S., and **GDPR**, which protects personal data in the EU.
+- **Mitigation:** The protocol will be designed with a 'privacy-by-design' philosophy, incorporating data minimization and purpose limitation principles. We will develop a modular compliance framework that allows for configurable policies based on jurisdictional requirements. This includes implementing robust consent mechanisms and ensuring data subject rights (e.g., right to erasure) can be honored, even in a decentralized context. Consultation with legal experts specializing in health data protection will be ongoing.
 
 ### 5.7 Ethical Considerations
 
@@ -190,7 +215,11 @@ This methodology is directly aligned with the research objectives. Phase 1 and 2
 ### 6.2 Practical Contributions
 
 **Clinical Trial Analytics Without Data Exposure:** This research demonstrates practical implementation of multi-institution clinical trial analysis. Medical data remains confidential throughout collaborative research processes. This addresses a major bottleneck preventing medical research collaboration.
-**Regulatory Compliance Framework for Decentralized Medical Data:** The study develops systematic approaches ensuring compliance with medical data protection regulations. These approaches apply to decentralized systems supporting computation. They enable practical deployment of privacy-preserving medical data systems.
+**Verifiable Regulatory Compliance Framework:** This research will deliver a practical framework for achieving and demonstrating compliance with major data protection regulations, including **HIPAA and GDPR**. This goes beyond theoretical mapping by providing:
+
+- **Policy-as-Code Templates:** A set of configurable smart contract templates that enforce regulatory rules (e.g., consent, purpose limitation) directly on-chain.
+- **HIPAA-Compliant Audit Logs:** The protocol will generate immutable, cryptographically verifiable logs of all data access events, designed to meet HIPAA's stringent audit control requirements.
+- **GDPR Data Subject Rights Mechanisms:** Implementation of technical mechanisms to facilitate data subject rights, such as the right to access and data portability, through the protocol's patient-centric design, even within a decentralized architecture.
 **Performance-Optimized Medical Data Analysis:** This investigation identifies and implements optimization techniques. These techniques are specific to distributed medical data analysis systems using ZKP and decentralized storage. They provide practical guidance for scalable medical data applications.
 
 ## 7. Expected Impact and Significance
