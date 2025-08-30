@@ -1,18 +1,24 @@
 # Tangram Protocol: A Decentralized Framework for Secure Medical Data Analysis
 
-![Tangram Logo](image/Tangram.jpg)
+<div style="text-align:center">
+    <img src="image/Tangram.jpg" alt="Tangram" style="display: block; margin: 0 auto; max-width: 300px; height: auto;">
+</div>
 
 **To:**  
 - Professor James Kang  
 - Professor Tri Dang  
 - Professor Nalin Arachchilage
 
-**From PhD Candidate:**
-Tristan Nguyen
+**From:**
+Tristan Nguyen, PhD Candidate
 (tristansummer23@gmail.com)
 
 ## Abstract
-A research proposal for a decentralized, secure, and patient-centric medical record protocol leveraging blockchain technology and zero-knowledge proofs to revolutionize healthcare data management.
+This research proposes the Tangram Protocol, an innovative framework that addresses critical challenges in healthcare data management through decentralized technologies. The protocol introduces a novel integration of blockchain and zero-knowledge proofs (ZKPs) to create a secure, privacy-preserving platform for medical data sharing and analysis. At its core, Tangram enables patients to maintain sovereignty over their health records while allowing controlled access for medical research and clinical applications.
+
+Key innovations include a decentralized identity management system, fine-grained access control mechanisms, and privacy-preserving computation capabilities. The protocol's architecture ensures data integrity through cryptographic proofs while maintaining patient confidentiality through advanced ZKP techniques. By eliminating centralized points of failure and enabling verifiable computation on encrypted data, Tangram addresses critical gaps in current healthcare data systems.
+
+This research will validate the protocol's effectiveness through both theoretical analysis and practical implementation, with performance benchmarks against existing solutions. The expected contributions include novel cryptographic constructions for medical data privacy, a reference implementation, and empirical evidence of the system's scalability and security properties. The outcomes aim to establish new standards for ethical and efficient healthcare data utilization in research and clinical practice.
 
 ## Table of Contents
 - [Tangram Protocol: A Decentralized Framework for Secure Medical Data Analysis](#tangram-protocol-a-decentralized-framework-for-secure-medical-data-analysis)
