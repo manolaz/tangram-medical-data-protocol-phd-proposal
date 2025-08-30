@@ -17,6 +17,7 @@ A research proposal for a decentralized, secure, and patient-centric medical rec
 - [Introduction](#introduction)
 - [Research Objectives](#research-objectives)
 - [Literature Review](#literature-review)
+- [Research Questions and Objectives](#research-questions-and-objectives)
 - [Methodology](#methodology)
 - [Expected Contributions](#expected-contributions)
 - [Research Timeline](#research-timeline)
@@ -49,6 +50,43 @@ This investigation will conduct an in-depth analysis of ZKP applications in heal
 
 ### 2.4 Decentralized Storage for Medical Data
 This research will evaluate decentralized storage systems for their suitability in managing large-scale medical datasets, examining attributes such as censorship resistance, availability guarantees, and cryptographic integrity proofs. The study will analyze how decentralized storage can serve as a secure, off-chain repository for encrypted longitudinal patient health records while maintaining integration with on-chain access control mechanisms, thereby establishing the technical foundation for hybrid on-chain/off-chain medical data management in the Tangram Protocol.
+## 3. Research Questions and Objectives
+
+### RQ1: Framework Architecture and Integration
+
+**Research Question:** This study will investigate how a platform-agnostic, DLT-native framework integrated with decentralized storage can be architected to enable scalable and secure management of medical data for multi-institution clinical trials while maintaining complete privacy throughout the analysis lifecycle.
+
+**Objectives:**
+
+1.1: This research will design and validate the Tangram Protocol as a generalized DLT architecture that models medical data as on-chain digital assets with embedded ZKP-based access control policies, thereby creating a reusable framework applicable across multiple blockchain platforms.
+
+1.2: The study will develop and test a generic interface for integrating decentralized storage protocols with on-chain verification of data availability proofs, thereby enabling scalable medical data management without compromising security or auditability.
+
+1.3: This investigation will conduct comprehensive evaluation of architectural trade-offs between on-chain provenance tracking and off-chain medical data storage to optimize for scalability, security, and regulatory compliance, thereby providing empirical evidence for optimal system design decisions.
+
+### RQ2: End-to-End Privacy via Zero-Knowledge Proofs
+
+**Research Question:** This research will determine how ZKP can enable an end-to-end privacy-preserving architecture for medical data that secures both granular access control and allows for verifiable, private computation on sensitive longitudinal patient health records without ever exposing the underlying data.
+
+**Objectives:**
+
+2.1: This study will implement and validate ZKP-based smart contracts that facilitate verifiable credential checks for medical data access while preserving researcher anonymity and institutional privacy, thereby demonstrating practical privacy-preserving access control for sensitive medical data.
+
+2.2: The research will design, implement, and benchmark ZKP circuits for representative clinical trial queries including patient cohort selection and aggregate statistical functions that execute over encrypted medical data stored in decentralized storage, thereby proving the feasibility of complex medical data analysis without compromising patient privacy.
+
+2.3: This investigation will conduct comprehensive mapping of Tangram's privacy mechanisms to international data protection laws including HIPAA, GDPR, and Vietnam's Decree 13/2023/ND-CP, thereby providing a regulatory compliance framework for decentralized medical data systems.
+
+### RQ3: Formal Verification and Security Analysis
+
+**Research Question:** This study will establish what formal verification methodologies can provide rigorous mathematical guarantees for the cryptographic and smart contract components managing medical data in the Tangram Protocol, and empirically demonstrate how its performance compares with existing medical data sharing frameworks.
+
+**Objectives:**
+
+3.1: This research will employ formal verification tools to mathematically prove the correctness and security of Tangram's smart contract logic and ZKP validation mechanisms for medical data access control, thereby providing mathematical assurance of system security properties.
+
+3.2: The study will develop and validate a comprehensive formal threat model encompassing adversarial behaviors in medical data systems and formally prove Tangram's resilience against collusion, inference attacks, and ZKP setup vulnerabilities, thereby establishing robust security guarantees for sensitive medical data handling.
+
+3.3: This investigation will conduct extensive benchmarking of Tangram's performance using HL7/FHIR-compliant synthetic medical datasets, measuring transaction latency, storage proof verification times, and ZKP generation/verification overhead for private medical data computations, thereby providing empirical evidence of practical viability for real-world medical data applications.
 
 ## Methodology
 ### System Architecture
