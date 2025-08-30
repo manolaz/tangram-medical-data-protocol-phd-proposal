@@ -1,9 +1,11 @@
-# Tangram Protocol - Decentralized Framework for Secure Medical Data Analysis: End-to-End Zero-Knowledge Proofs with Distributed Data Storage Systems
+# Tangram Protocol: A Decentralized Framework for Secure Medical Data Analysis
+
+![Tangram Logo](image/Tangram.jpg)
 
 **To:**
-Professor James Kang,
-Professor Tri Dang,
-Professor Nalin Arachchilage,
+Professor James Kang
+Professor Tri Dang
+Professor Nalin Arachchilage
 
 **From:**
 Tristan Nguyen
@@ -14,7 +16,7 @@ tristansummer23@gmail.com
 A research proposal for a decentralized, secure, and patient-centric medical record protocol leveraging blockchain technology and zero-knowledge proofs to revolutionize healthcare data management.
 
 ## Table of Contents
-- [Tangram Protocol - Decentralized Framework for Secure Medical Data Analysis: End-to-End Zero-Knowledge Proofs with Distributed Data Storage Systems](#tangram-protocol---decentralized-framework-for-secure-medical-data-analysis-end-to-end-zero-knowledge-proofs-with-distributed-data-storage-systems)
+- [Tangram Protocol: A Decentralized Framework for Secure Medical Data Analysis](#tangram-protocol-a-decentralized-framework-for-secure-medical-data-analysis)
   - [Abstract](#abstract)
   - [Table of Contents](#table-of-contents)
   - [1. Introduction and Problem Statement](#1-introduction-and-problem-statement)
