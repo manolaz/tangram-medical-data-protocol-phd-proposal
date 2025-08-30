@@ -37,17 +37,18 @@ This study will develop and validate the Tangram Protocol as a transformative so
 4. Develop a patient-centric access control mechanism
 5. Evaluate performance and security of the proposed solution
 
-## Literature Review
-### Blockchain in Healthcare
-- Current blockchain-based medical record systems
-- Smart contracts for healthcare data management
-- Privacy-preserving techniques in healthcare
+## Literature Review and Theoretical Foundation
+### 2.1 Medical Data Sharing and Analysis Challenges
+This study will conduct a systematic examination of medical data sharing challenges across regulatory, technical, and operational dimensions. The investigation will analyze how privacy, security, and interoperability constraints under frameworks like HIPAA and GDPR create barriers to collaborative medical research. Through comprehensive analysis of existing solutions, the research will identify critical gaps where current approaches fail to enable secure multi-institutional analysis of medical data without compromising patient privacy, thereby establishing the necessity for novel cryptographic approaches that maintain data confidentiality during computation.
 
-### Related Work
-- MedRec
-- FHIR Chain
-- Other decentralized healthcare solutions
-- Regulatory compliance (HIPAA, GDPR)
+### 2.2 Distributed Ledger Technologies in Medical Data Management
+This research will comprehensively evaluate the application of Distributed Ledger Technologies (DLTs) in medical data management, examining early deployments to understand scalability and privacy limitations. The study will analyze how modern DLTs with expressive smart contract capabilities can serve as foundations for managing medical data as programmable on-chain entities with embedded access policies. This analysis will demonstrate how DLTs can provide immutable audit trails and access control for medical data while integrating with decentralized storage systems for scalable data management, thereby justifying the selection of DLT-based architecture for the Tangram Protocol.
+
+### 2.3 Zero-Knowledge Proofs for Medical Data Privacy
+This investigation will conduct an in-depth analysis of ZKP applications in healthcare, examining how cryptographic techniques like zk-SNARKs and zk-STARKs can enable verifiable computation on encrypted medical data. The study will systematically review existing implementations to identify limitations in current approaches and demonstrate how ZKP circuits can execute complex statistical analyses and cohort selections on medical data without revealing underlying patient information. This analysis will establish how ZKP technology can transform medical data analysis by enabling researchers to obtain proven, correct results without accessing raw patient data, thereby providing the theoretical foundation for implementing privacy-preserving computation in the Tangram Protocol.
+
+### 2.4 Decentralized Storage for Medical Data
+This research will evaluate decentralized storage systems for their suitability in managing large-scale medical datasets, examining attributes such as censorship resistance, availability guarantees, and cryptographic integrity proofs. The study will analyze how decentralized storage can serve as a secure, off-chain repository for encrypted longitudinal patient health records while maintaining integration with on-chain access control mechanisms, thereby establishing the technical foundation for hybrid on-chain/off-chain medical data management in the Tangram Protocol.
 
 ## Methodology
 ### System Architecture
