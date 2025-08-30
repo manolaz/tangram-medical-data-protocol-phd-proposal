@@ -18,8 +18,9 @@ A research proposal for a decentralized, secure, and patient-centric medical rec
 - [Research Objectives](#research-objectives)
 - [Literature Review](#literature-review)
 - [Research Questions and Objectives](#research-questions-and-objectives)
-- [Methodology](#methodology)
+- [Proposed Methodology](#proposed-methodology)
 - [Expected Contributions](#expected-contributions)
+- [Expected Impact and Significance](#expected-impact-and-significance)
 - [Research Timeline](#research-timeline)
 - [References](#references)
 
@@ -88,44 +89,41 @@ This research will evaluate decentralized storage systems for their suitability 
 
 3.3: This investigation will conduct extensive benchmarking of Tangram's performance using HL7/FHIR-compliant synthetic medical datasets, measuring transaction latency, storage proof verification times, and ZKP generation/verification overhead for private medical data computations, thereby providing empirical evidence of practical viability for real-world medical data applications.
 
-## Methodology
-### System Architecture
-- Network topology
-- Data storage model
-- Consensus mechanism
-- Smart contract design
+## 4. Proposed Methodology
+4.1 Theoretical Foundation Development (Months 1-8)
+This phase will conduct systematic review of medical data sharing frameworks and comprehensive analysis of ZKP schemes for their applicability to medical data privacy challenges. The study will develop formal models for platform-agnostic integration of DLT, ZKP, and decentralized storage systems, thereby establishing the theoretical foundation for secure medical data analysis.
+4.2 Framework Design and Specification (Months 9-16)
+This research will design the comprehensive system architecture integrating DLT with decentralized storage for medical data management. The study will specify cryptographic protocols for ZKP-based access control and develop ZKP circuits for clinical trial use cases with off-chain private query protocols. This phase will develop formal security models and threat analysis specific to medical data systems, thereby creating a complete specification for privacy-preserving medical data analysis.
+4.3 Prototype Implementation and Validation (Months 17-26)
+This investigation will implement core system components demonstrating the platform-agnostic design principles for medical data management. The study will develop and test ZKP circuits with off-chain services for generating proofs on synthetic HL7/FHIR medical datasets. Comprehensive performance analysis will measure transaction throughput, medical data access latency, and resource utilization, thereby providing empirical validation of the Tangram Protocol's practical viability.
+4.4 Formal Analysis and Verification (Months 27-32)
+This phase will conduct formal verification of smart contract logic and ZKP protocols for medical data systems. The research will perform comprehensive performance evaluation against established benchmarks and comparative analysis with existing medical data sharing approaches. The study will validate regulatory compliance capabilities for medical data protection, thereby providing rigorous mathematical and empirical proof of system superiority.
+4.5 Evaluation and Dissemination (Months 33-36)
+This final phase will conduct comprehensive evaluation of research contributions to medical data security and privacy. The study will prepare thesis documentation and academic publications while developing open-source research artifacts, thereby ensuring broad dissemination and practical application of research outcomes.
 
-### Technical Components
-1. **Identity Management**
-   - Decentralized identifiers (DIDs)
-   - Verifiable credentials
+## 5. Expected Contributions
+5.1 Theoretical Contributions
+Novel Platform-Agnostic Medical Data Framework: This research will develop new theoretical models for integrating DLT with decentralized storage specifically optimized for private medical data analysis in clinical trials, creating a framework applicable across various blockchain platforms, thereby providing a foundational architecture for next-generation medical data systems.
+Privacy-Preserving Medical Data Computation Protocol: The study will create a novel cryptographic protocol combining attribute-based access control with ZKP-based private computation for medical data, enabling statistical analysis on data that remains encrypted throughout the process, thereby solving the fundamental problem of medical data privacy during analysis phases.
+Formal Verification Methodology for Medical Data Systems: This investigation will develop comprehensive formal methods for verifying security and privacy properties of hybrid distributed systems handling sensitive medical data, thereby establishing rigorous security assurance methodologies for healthcare applications.
+5.2 Practical Contributions
+Clinical Trial Analytics Without Data Exposure: This research will demonstrate practical implementation of multi-institution clinical trial analysis where medical data remains confidential throughout collaborative research processes, thereby addressing a major bottleneck preventing medical research collaboration.
+Regulatory Compliance Framework for Decentralized Medical Data: The study will develop systematic approaches ensuring compliance with medical data protection regulations in decentralized systems supporting computation, thereby enabling practical deployment of privacy-preserving medical data systems.
+Performance-Optimized Medical Data Analysis: This investigation will identify and implement optimization techniques specifically for distributed medical data analysis systems using ZKP and decentralized storage, thereby providing practical guidance for scalable medical data applications.
 
-2. **Data Model**
-   - Standardized medical data representation
-   - On-chain vs. off-chain storage
+## 6. Expected Impact and Significance
 
-3. **Privacy Mechanisms**
-   - Zero-knowledge proofs
-   - Selective disclosure
-   - Data minimization techniques
+### 6.1 Academic Impact
+This research will contribute novel theoretical frameworks to distributed systems, applied cryptography, and health informatics, with methodologies for integrating ZKP for end-to-end medical data privacy providing foundations for future privacy-sensitive domain research, thereby advancing the academic understanding of secure medical data systems.
 
-4. **Access Control**
-   - Attribute-based access control
-   - Patient consent management
-   - Emergency access protocols
+### 6.2 Practical Impact
+The Tangram Protocol will address critical real-world challenges in medical data sharing, enabling vital research and analysis currently stalled by privacy concerns. The outcomes will inform development of new technical standards and policies for secure medical data exchange and collaborative research, thereby transforming how medical institutions collaborate on sensitive data analysis.
 
-### Implementation Plan
-- Technology stack selection
-- Development phases
-- Testing and validation
+### 6.3 Societal Impact
+By enabling more secure and efficient medical data analysis, this research will contribute to faster medical discoveries, improved healthcare outcomes, reduced research costs, and enhanced patient autonomy in medical data management decisions, thereby directly benefiting public health and advancing medical science.
+## 7. Conclusion
 
-## Expected Contributions
-1. Novel protocol for decentralized medical records
-2. Enhanced privacy-preserving techniques
-3. Improved patient data ownership and control
-4. Interoperability framework for healthcare data
-5. Performance and security evaluation metrics
-
+This proposed research addresses fundamental challenges in medical data sharing and analysis through novel integration of end-to-end ZKP within a platform-agnostic, decentralized architecture using advanced decentralized storage systems. By enabling verifiable private computation on medical data that never requires decryption, this work will make significant theoretical and practical contributions to distributed systems, applied cryptography, and health informatics. The comprehensive approach will produce research outcomes with both academic significance and real-world applicability, thereby paving the way for a new generation of secure, privacy-preserving medical data analysis platforms that can transform collaborative healthcare research while maintaining absolute patient privacy.
 ## Research Timeline
 ```mermaid
 gantt
