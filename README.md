@@ -122,39 +122,37 @@ gantt
 
 [5] World Health Organization, "Global diffusion of eHealth: Making universal health coverage achievable," 2016.
 
-[6] A. M. Tawfik, A. Al-Ahwal, A. S. T. Eldien et al., "ACHealthChain blockchain framework for access control and privacy preservation in healthcare," Sci. Rep., vol. 15, p. 16696, 2025. doi: 10.1038/s41598-025-00757-1.
+[6] A. M. Tawfik, A. Al-Ahwal, A. S. T. Eldien et al., "ACHealthChain blockchain framework for access control and privacy preservation in healthcare," Sci. Rep., vol. 15, p. 16696, 2025. doi: [10.1038/s41598-025-00757-1](https://doi.org/10.1038/s41598-025-00757-1).
 
-[7] A. A. Monie, D. K. P. V. V. Rajeswari, and K. S. B. Prasad, "Blockchain technology for securing and managing electronic health records (EHRs)," Int. J. Med. Eng. Inform., vol. 15, no. 5, pp. 536–550, 2023. doi: 10.1504/IJMEI.2023.133742.
+[7] A. A. Monie, D. K. P. V. V. Rajeswari, and K. S. B. Prasad, "Blockchain technology for securing and managing electronic health records (EHRs)," Int. J. Med. Eng. Inform., vol. 15, no. 5, pp. 536–550, 2023. doi: [10.1504/IJMEI.2023.133742](https://doi.org/10.1504/IJMEI.2023.133742).
 
-[8] Hedera, "Healthcare," Hedera, 2024. [Online]. Available: https://hedera.com/healthcare.
+[8] Hedera, "Healthcare," Hedera, 2024. [Online](https://hedera.com/healthcare).
 
-[9] S. K. H. Islam, M. A. Baig, M. M. Khan, and M. A. Khan, "A Blockchain-Based Framework for Secure and Privacy-Preserving Electronic Health Record Sharing," IEEE Access, vol. 11, pp. 11467–11482, 2023. doi: 10.1109/ACCESS.2023.3241280.
+[9] S. K. H. Islam, M. A. Baig, M. M. Khan, and M. A. Khan, "A Blockchain-Based Framework for Secure and Privacy-Preserving Electronic Health Record Sharing," IEEE Access, vol. 11, pp. 11467–11482, 2023. doi: [10.1109/ACCESS.2023.3241280](https://doi.org/10.1109/ACCESS.2023.3241280).
 
-[10] A. Azaria, A. Ekblaw, T. Vieira, and A. Lippman, "MedRec: Using Blockchain for Medical Data Access and Permission Management," in Proc. 2016 2nd Int. Conf. Open Big Data (OBD), Vienna, Austria, Aug. 2016, pp. 25–30. doi: 10.1109/OBD.2016.11.
+[10] A. Azaria, A. Ekblaw, T. Vieira, and A. Lippman, "MedRec: Using Blockchain for Medical Data Access and Permission Management," in Proc. 2016 2nd Int. Conf. Open Big Data (OBD), Vienna, Austria, Aug. 2016, pp. 25–30. doi: [10.1109/OBD.2016.11](https://doi.org/10.1109/OBD.2016.11).
 
-[11] Hedera, "Smart Contracts in Healthcare," Hedera, 2024. [Online]. Available: https://hedera.com/learning/smart-contracts/smart-contracts-healthcare.
+[11] Hedera, "Smart Contracts in Healthcare," Hedera, 2024. [Online](https://hedera.com/learning/smart-contracts/smart-contracts-healthcare).
 
-[12] A. Dwivedi, G. Srivastava, S. Dhar, and R. Singh, "A decentralized privacy-preserving healthcare blockchain for IoT," Sensors, vol. 19, no. 2, p. 326, 2019. doi: 10.3390/s19020326.
+[12] A. Dwivedi, G. Srivastava, S. Dhar, and R. Singh, "A decentralized privacy-preserving healthcare blockchain for IoT," Sensors, vol. 19, no. 2, p. 326, 2019. doi: [10.3390/s19020326](https://doi.org/10.3390/s19020326).
 
-[13] S. Goldwasser, S. Micali, and C. Rackoff, "The Knowledge Complexity of Interactive Proof Systems," SIAM J. Comput., vol. 18, no. 1, pp. 186–208, 1989. doi: 10.1137/0218012.
+[13] S. Goldwasser, S. Micali, and C. Rackoff, "The Knowledge Complexity of Interactive Proof Systems," SIAM J. Comput., vol. 18, no. 1, pp. 186–208, 1989. doi: [10.1137/0218012](https://doi.org/10.1137/0218012).
 
-[14] D. Ben-Sasson, I. Bentov, Y. Horesh, and M. Riabzev, "Scalable, transparent, and post-quantum secure computational integrity," IACR Cryptol. ePrint Arch., vol. 2018, p. 46, 2018. [Online]. Available: https://eprint.iacr.org/2018/046.
+[14] D. Ben-Sasson, I. Bentov, Y. Horesh, and M. Riabzev, "Scalable, transparent, and post-quantum secure computational integrity," IACR Cryptol. ePrint Arch., vol. 2018, p. 46, 2018. [Online](https://eprint.iacr.org/2018/046).
 
-[15] J. Benet, "IPFS - Content Addressed, Versioned, P2P File System," arXiv:1407.3561 [cs], 2014. [Online]. Available: http://arxiv.org/abs/1407.3561.
+[15] J. Benet, "IPFS - Content Addressed, Versioned, P2P File System," arXiv:1407.3561 [cs], 2014. [Online](http://arxiv.org/abs/1407.3561).
 
-[16] J. Andrew, D. P. Isravel, K. M. Sagayam, B. Bhushan, Y. Sei, and J. Eunice, "Blockchain for healthcare systems: Architecture, security challenges, trends and future directions," J. Netw. Comput. Appl., vol. 215, p. 103633, 2023. doi: 10.1016/j.jnca.2023.103633.
+[16] J. Andrew, D. P. Isravel, K. M. Sagayam, B. Bhushan, Y. Sei, and J. Eunice, "Blockchain for healthcare systems: Architecture, security challenges, trends and future directions," J. Netw. Comput. Appl., vol. 215, p. 103633, 2023. doi: [10.1016/j.jnca.2023.103633](https://doi.org/10.1016/j.jnca.2023.103633).
 
-[17] F. O. Catak, C. Rong, Ø. Meinich-Bache, S. Brunner, and K. Engan, "Graphical Abstract Building Trust in Healthcare with Privacy Techniques: Blockchain in the Cloud," arXiv:2504.20700, 2025. [Online]. Available: https://arxiv.org/pdf/2504.20700.pdf.
+[17] F. O. Catak, C. Rong, Ø. Meinich-Bache, S. Brunner, and K. Engan, "Graphical Abstract Building Trust in Healthcare with Privacy Techniques: Blockchain in the Cloud," arXiv:2504.20700, 2025. [Online](https://arxiv.org/pdf/2504.20700.pdf).
 
-[18] D. C. Nguyen, P. N. Pathirana, M. Ding, and A. Seneviratne, "BEdgeHealth: A Decentralized Architecture for Edge-based IoMT Networks Using Blockchain," IEEE Internet Things J., 2021. [Online]. Available: https://arxiv.org/pdf/2109.14295.pdf.
+[18] D. C. Nguyen, P. N. Pathirana, M. Ding, and A. Seneviratne, "BEdgeHealth: A Decentralized Architecture for Edge-based IoMT Networks Using Blockchain," IEEE Internet Things J., 2021. [Online](https://arxiv.org/pdf/2109.14295.pdf).
 
-[19] I. Kotsiuba et al., "Decentralized e-Health Architecture for Boosting Healthcare Analytics," Bitfury, 2019. [Online]. Available: https://bitfury.com/content/downloads/research-decentralized-e-health-architecture.pdf.
+[19] I. Kotsiuba et al., "Decentralized e-Health Architecture for Boosting Healthcare Analytics," Bitfury, 2019. [Online](https://bitfury.com/content/downloads/research-decentralized-e-health-architecture.pdf).
 
-[20] A. M. Tawfik et al., "ACHealthChain blockchain framework for access control and privacy preservation in healthcare," Sci. Rep., vol. 15, p. 16696, 2025. doi: 10.1038/s41598-025-00757-1. (Duplicate of [6])
+[20] "A Survey on Blockchain in Healthcare," arXiv:1901.10645, 2019. [Online](https://arxiv.org/pdf/1901.10645.pdf).
 
-[21] "A Survey on Blockchain in Healthcare," arXiv:1901.10645, 2019. [Online]. Available: https://arxiv.org/pdf/1901.10645.pdf.
-
-[22] "Blockchain technology in healthcare: A systematic review," PMC, 2024. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC11461297/.
+[21] "Blockchain technology in healthcare: A systematic review," PMC, 2024. [Online](https://pmc.ncbi.nlm.nih.gov/articles/PMC11461297/).
 
 ---
 *Last updated: August 31, 2025*
